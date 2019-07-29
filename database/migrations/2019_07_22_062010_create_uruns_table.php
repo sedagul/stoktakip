@@ -16,10 +16,10 @@ class CreateUrunsTable extends Migration
         Schema::create('uruns', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('stok_kodu', 100);
-            $table->string('urun_adi', 100);
+            $table->string('stok_adi', 100);
             $table->string('cinsi', 100);
             $table->string('birimi', 100);
-            $table->string('fiyatı', 100);
+            $table->string('fiyatİ', 100);
             $table->string('aciklama', 100)->nullable();
             $table->timestamps();
         });
