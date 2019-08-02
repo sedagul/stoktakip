@@ -33,10 +33,10 @@
                     <td>{{$s->kategori_ekle}}</td>
            <td>
             <div align="right" style="margin-right: 20px;">
-              <a href="{{url('kategoriduzenle')}}/{{$s->id}}"><button class="btn btn-info">Düzenle</button> 
+              <a href="{{url('kategoriduzenle')}}/{{$s->id}}"><button class="btn btn-info"><i class="fas fa-edit"></i></button> 
               </a>
               <a href="{{url('sil')}}/{{$s->id}}">
-                <button class="btn btn-info">Sil</button>
+                <button class="btn btn-info"><i class="fas fa-trash-alt"></i></button>
               </a>
             </div>
           </td> 

@@ -38,7 +38,7 @@
               </div>
               <div class="mr-5"><font color="white"><b>0 Ürün</b></font></div>
             </div>
-            <a class="card-footer text-white clearfix small z-1" href="">
+            <a class="card-footer text-white clearfix small z-1" href="hareketler">
               <span class="float-left"><font color="red">Ürün Çıkış</font></span>
               <span class="float-right">
                <font color="red"><i class="fas fa-arrow-alt-circle-right"></i></font>

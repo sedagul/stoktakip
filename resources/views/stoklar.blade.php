@@ -40,10 +40,10 @@
                     <td>{{$s->aciklama}}</td>
                     <td>
             <div align="right" style="margin-right: 20px;">
-              <a href="{{url('urunduzenle')}}/{{$s->id}}"><button class="btn btn-info">Düzenle</button> 
+              <a href="{{url('urunduzenle')}}/{{$s->id}}"><button class="btn btn-info"><i class="fas fa-edit"></i></button> 
               </a>
               <a href="{{url('sil0')}}/{{$s->id}}">
-                <button class="btn btn-info">Sil</button>
+                <button class="btn btn-info"><i class="fas fa-trash-alt"></i></button>
               </a>
             </div>
           </td> 
@@ -56,7 +56,7 @@
                 
               </table><br>
             </div>
-            <div align="right"><a href="{{url('yeniEkle')}}"><button class="btn btn-info">Yeni Ürün</button></a></div>
+            <div align="right"><a href="{{url('yeniEkle')}}"><button class="btn btn-info"><i class="fas fa-plus-square"></i>&nbsp;Yeni Ürün</button></a></div>
           </div>
           
 

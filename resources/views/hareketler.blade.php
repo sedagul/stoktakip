@@ -24,31 +24,31 @@
                     <th>Stok Kodu</th>
                     <th>Stok Adı</th>
                     <th>Kategori</th>
-                    <th>Birimi</th>
-                    <th>Çıkış Tarihi</th>
+                    <th>Birim</th>
+                    <th>Çıkkış Tarihi</th>
                     <th>Fiyat</th>
                   </tr>
                 </thead>
                 <tbody>
-                  
+                  @foreach($hareketler as $k)
                   <tr>
-                    <td>1234</td>
-                    <td>noır</td>
-                    <td>çikolata</td>
-                    <td>kg</td>
-                    <td>02.02.2019</td>
-                    <td>50</td>
+                    <td>{{$k->stok_kodu}}</td>
+                    <td>{{$k->stok_adi}}</td>
+                    <td>{{$k->kategori}}</td>
+                    <td>{{$k->birim}}</td>
+                    <td>{{$k->cikis_tarihi}}</td>
+                    <td>{{$k->fiyat}}</td>
                     <td>
             <div align="right" style="margin-right: 20px;">
-              <a href=""><button class="btn btn-info">Düzenle</button> 
+              <a href="{{url('hareketduzenle')}}/{{$k->id}}"><button class="btn btn-info"><i class="fas fa-edit"></i></button> 
               </a>
-              <a href="">
-                <button class="btn btn-info">Sil</button>
+              <a href="{{url('sil3')}}/{{$k->id}}">
+                <button class="btn btn-info"><i class="fas fa-trash-alt"></i></button>
               </a>
             </div>
           </td> 
                   </tr>
-                 
+                  @endforeach
 
                 </tbody>
 
@@ -56,7 +56,7 @@
                 
               </table><br>
             </div>
-            <div align="right"><a href="{{url('cikisEkle')}}"><button class="btn btn-info">ÇıkışYap</button></a></div>
+            <div align="right"><a href="{{url('cikisEkle')}}"><button class="btn btn-info"><i class="fas fa-plus-square"></i>&nbsp;Üürn Çıkış</element></button></a></div>
           </div>
           
 

@@ -72,11 +72,11 @@
 
         </a>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-          <a class="dropdown-item" href="#">Ayarlar</a>
-          <a class="dropdown-item" href="#">Şifre Değiştir</a>
+         
+          <a class="dropdown-item" href="sifre"><font color="#17a2b8"><i class="fas fa-unlock-alt"></i>&nbsp;</font>Şifre Değiştir</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="{{ route('logout') }}" data-toggle="modal" onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
+                                                     document.getElementById('logout-form').submit();"><font color="#17a2b8"><i class="fas fa-sign-out-alt"></i>&nbsp;</font>
                                         Çıkış Yap!</a>
                                         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
