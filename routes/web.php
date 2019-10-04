@@ -14,7 +14,8 @@
 /*Route::get('/', function () {
     return view('welcome');
 });*/
-	Route::get('/', 'HomeController@index');
+	Route::get('/', 'SenController@index');
+	Route::get('/panel', 'HomeController@index');
 
 //URUN
 	Route::get('/urun', 'HomeController@urun');

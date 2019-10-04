@@ -1,6 +1,6 @@
 @extends('app')
 @section('content')
-@section('title','Ürün Düzenle')
+@section('title','Hareket Düzenle')
 <div id="wrapper">
 
   @include('sidebar')

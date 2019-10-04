@@ -1,7 +1,7 @@
 <!-- Sidebar -->
     <ul class="sidebar navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="{{url('/')}}">
+        <a class="nav-link" href="{{url('/panel')}}">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Panel</span>
         </a>

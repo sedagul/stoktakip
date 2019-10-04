@@ -26,7 +26,7 @@
 
   <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-    <a class="navbar-brand mr-1" href="{{url('/')}}">Uygulama</a>
+    <a class="navbar-brand mr-1" href="{{url('/panel')}}">Uygulama</a>
 
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
       <font color="white"><i class="fas fa-bars"></i></font>

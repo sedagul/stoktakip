@@ -11,7 +11,7 @@
       <!-- Breadcrumbs-->
       
       <!-- Icon Cards-->
-      <p><p style="color:black;font-family:tahoma;font-weight:bold;font-size:125%">Uygulama /<a style="color:#c01616;font-family:tahoma;font-weight:bold;font-size:125%"> Panel</a> <hr>
+      <p><p style="color:black;font-family:tahoma;font-weight:bold;font-size:125%">Uygulama /<a  style="color:#c01616;font-family:tahoma;font-weight:bold;font-size:125%"> Panel</a> <hr>
         <div class="row">
           <div class="col-xl-4 col-sm-4 mb-3">
             <div class="card text-white bg-primary o-hidden h-100">
